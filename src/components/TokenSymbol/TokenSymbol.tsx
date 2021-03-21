@@ -1,11 +1,13 @@
 import React from 'react';
 
 import BNBLogo from '../../assets/img/bnb.png'
+import ACSLogo from '../../assets/img/acs.png'
 import Farmer from '../../assets/img/farmer.png'
 
 
 const logosBySymbol: {[title: string]: string} = {
-  'BNB': BNBLogo,
+  'ACS': ACSLogo,
+  'WBNB': BNBLogo,
   'SHITZ-BNB-FLIP': Farmer
 };
 
@@ -14,7 +16,7 @@ type BasisLogoProps = {
   size?: number;
 }
 
-const TokenSymbol: React.FC<BasisLogoProps> = ({ symbol, size = 64 }) => {
+const TokenSymbol: React.FC<BasisLogoProps> = ({ symbol, size = 32 }) => {
   if (!logosBySymbol[symbol]) {
     throw new Error(`Invalid logo symbol: ${symbol}`);
   }
