@@ -90,7 +90,7 @@ export const farmDefinitions: { [contractName: string]: FarmInfo } = {
   },
   SHITZLPCake: {
     name: "Stake SHITZ/BNB FLIP, earn CAKE",
-    contract: "SHITZLPBCake",
+    contract: "SHITZLPCake",
     depositTokenName: "SHITZ-BNB-FLIP",
     earnTokenName: "CAKE",
     finished: false,
