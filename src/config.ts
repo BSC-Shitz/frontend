@@ -41,7 +41,7 @@ export const farmDefinitions: { [contractName: string]: FarmInfo } = {
     sort: 6
   },
   SHITZLPPoolACS: {
-    name: "Stake SHITZ/BNB FLIP, earn ACS",
+    name: "THIS POOL IS OVER PLEASE UNSTAKE",
     contract: "SHITZLPPoolACS",
     depositTokenName: "SHITZ-BNB-FLIP",
     earnTokenName: "ACS",
@@ -49,23 +49,23 @@ export const farmDefinitions: { [contractName: string]: FarmInfo } = {
     sort: 5
   },
   SHITZLPP: {
-    name: "Stake SHITZ/BNB FLIP, earn SHITZ",
+    name: "THIS POOL IS OVER PLEASE UNSTAKE",
     contract: "SHITZLPP",
     depositTokenName: "SHITZ-BNB-FLIP",
     earnTokenName: "SHITZ",
     finished: false,
-    sort: 3
+    sort: 7
   },
   SHITZLPBrrl: {
-    name: "Stake SHITZ/BNB FLIP, earn BRRL",
+    name: "THIS POOL IS OVER PLEASE UNSTAKE",
     contract: "SHITZLPBrrl",
     depositTokenName: "SHITZ-BNB-FLIP",
     earnTokenName: "BRRL",
     finished: false,
-    sort: 1
+    sort: 2
   },
   SHITZLPReef: {
-    name: "Stake SHITZ/BNB FLIP, earn REEF",
+    name: "THIS POOL IS OVER PLEASE UNSTAKE",
     contract: "SHITZLPReef",
     depositTokenName: "SHITZ-BNB-FLIP",
     earnTokenName: "REEF",
@@ -78,7 +78,15 @@ export const farmDefinitions: { [contractName: string]: FarmInfo } = {
     depositTokenName: "SHITZ-BNB-FLIP",
     earnTokenName: "PB 2114",
     finished: false,
-    sort: 2
+    sort: 3
+  },
+  SHITZLPBusd: {
+    name: "Stake SHITZ/BNB FLIP, earn BUSD",
+    contract: "SHITZLPBusd",
+    depositTokenName: "SHITZ-BNB-FLIP",
+    earnTokenName: "BUSD",
+    finished: false,
+    sort: 1
   }
 };
 
