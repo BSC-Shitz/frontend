@@ -19,7 +19,7 @@ const logosBySymbol: {[title: string]: string} = {
   'REEF': REEFLogo,
   'PB 2114': PB2114Logo,
   'BUSD': BUSDLogo,
-  'BUSD': CAKELogo
+  'CAKE': CAKELogo
 };
 
 type BasisLogoProps = {
