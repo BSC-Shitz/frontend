@@ -21,7 +21,8 @@ const logosBySymbol: {[title: string]: string} = {
   'PB 2114': PB2114Logo,
   'BUSD': BUSDLogo,
   'CAKE': CAKELogo,
-  'BELUGA': BELUGALogo
+  'BELUGA': BELUGALogo,
+  'SHITZ/BNB FLIP': SHITZLogo
 };
 
 type BasisLogoProps = {
