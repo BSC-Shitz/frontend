@@ -65,7 +65,7 @@ export const farmDefinitions: { [contractName: string]: FarmInfo } = {
     sort: 9
   },
   SHITZLPReef: {
-    name: "Stake SHITZ/BNB FLIP, earn REEF",
+    name: "THIS POOL IS OVER PLEASE UNSTAKE",
     contract: "SHITZLPReef",
     depositTokenName: "SHITZ-BNB-FLIP",
     earnTokenName: "REEF",
@@ -77,7 +77,7 @@ export const farmDefinitions: { [contractName: string]: FarmInfo } = {
     contract: "SHITZLPPb",
     depositTokenName: "SHITZ-BNB-FLIP",
     earnTokenName: "PB 2114",
-    finished: false,
+    finished: true,
     sort: 8
   },
   SHITZLPBusd: {
