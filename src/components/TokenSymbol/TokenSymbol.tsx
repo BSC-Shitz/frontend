@@ -23,7 +23,7 @@ const logosBySymbol: {[title: string]: string} = {
   'BUSD': BUSDLogo,
   'CAKE': CAKELogo,
   'BELUGA': BELUGALogo,
-  'SHITZ/BNB FLIP': SHITZLogo
+  'SHITZ/BNB FLIP': SHITZLogo,
   'BAKE': BAKELogo
 };
 
