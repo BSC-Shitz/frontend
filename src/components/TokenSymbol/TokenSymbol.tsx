@@ -10,6 +10,7 @@ import PB2114Logo from '../../assets/img/pb2114.png'
 import BUSDLogo from '../../assets/img/busd.png'
 import CAKELogo from '../../assets/img/cake.png'
 import BELUGALogo from '../../assets/img/beluga.png'
+import BAKELogo from '../../assets/img/bake.png'
 
 const logosBySymbol: {[title: string]: string} = {
   'ACS': ACSLogo,
@@ -23,6 +24,7 @@ const logosBySymbol: {[title: string]: string} = {
   'CAKE': CAKELogo,
   'BELUGA': BELUGALogo,
   'SHITZ/BNB FLIP': SHITZLogo
+  'BAKE': BAKELogo
 };
 
 type BasisLogoProps = {
